@@ -1,0 +1,72 @@
+{
+  "parameters": {
+    "h": 0.0125,
+    "mumax": 10.0,
+    "vmax": 10.0,
+    "janus_points": 91,
+    "beta_points": 80,
+    "dps": 25,
+    "skip_validation": false
+  },
+  "janus_rows": 94,
+  "beta_rows": 80,
+  "normalization": "All central-charge quantities divided by c",
+  "janus_method": "Independent angular finite differences plus radial tridiagonal resolvent",
+  "beta_method": "mpmath quadrature of independently verified gamma-function Green function",
+  "asymptotic_offset": -0.2875360763650067,
+  "checks": {
+    "janus_half_mesh": [
+      {
+        "delta": 0.0,
+        "coarse": 1.0,
+        "refined": 1.0,
+        "absolute_difference": 0.0
+      },
+      {
+        "delta": 1.3475,
+        "coarse": 0.9686628510836647,
+        "refined": 0.9686637640152198,
+        "absolute_difference": 9.129315551303918e-07
+      },
+      {
+        "delta": 4.0,
+        "coarse": 1.331242458465316,
+        "refined": 1.3312345180712664,
+        "absolute_difference": 7.940394049610333e-06
+      },
+      {
+        "delta": 8.0,
+        "coarse": 2.5621967538376875,
+        "refined": 2.5622239405475487,
+        "absolute_difference": 2.71867098611267e-05
+      }
+    ],
+    "max_selected_mesh_difference": 2.71867098611267e-05,
+    "beta_precision_checks": [
+      {
+        "beta": 0.02,
+        "coarse": 0.9918707276235981,
+        "refined": 0.9918707276235981,
+        "absolute_difference": 0.0
+      },
+      {
+        "beta": 0.567380375,
+        "coarse": 0.847192068726096,
+        "refined": 0.847192068726096,
+        "absolute_difference": 0.0
+      },
+      {
+        "beta": 0.9,
+        "coarse": 0.9348176385029229,
+        "refined": 0.9348176385029229,
+        "absolute_difference": 0.0
+      }
+    ],
+    "janus_capacity_above_lower": true,
+    "janus_capacity_below_upper": true,
+    "beta_capacity_above_lower": true,
+    "beta_capacity_below_upper": true
+  },
+  "seconds": 20.44461417198181,
+  "caveat": "Mesh/precision checks are numerical comparisons, not certified continuum error bounds."
+}

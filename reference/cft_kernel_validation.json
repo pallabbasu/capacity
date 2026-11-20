@@ -1,0 +1,64 @@
+{
+  "I_asymptotic": [
+    {
+      "p": "0.0",
+      "remainder_over_epsilon": 3.333333333280423e-07,
+      "predicted_limit": 0.0
+    },
+    {
+      "p": "1.0",
+      "remainder_over_epsilon": -7.083333333257771e-07,
+      "predicted_limit": 0.0
+    },
+    {
+      "p": "1.3",
+      "remainder_over_epsilon": -0.29900069826853104,
+      "predicted_limit": -0.299
+    },
+    {
+      "p": "2.0",
+      "remainder_over_epsilon": -1.9999963333333333,
+      "predicted_limit": -2.0
+    },
+    {
+      "p": "3.0",
+      "remainder_over_epsilon": -7.999964041799999,
+      "predicted_limit": -8.0
+    }
+  ],
+  "kernel_comparisons": [
+    {
+      "n": 0.5,
+      "J": 0.39269908169872414,
+      "Binet_error": 9.052153598558763e-57,
+      "strip_plus_rotational_contact": -0.3926990816985545,
+      "regulator_check_error": 1.6964669241238299e-13
+    },
+    {
+      "n": 1.1,
+      "J": -0.05977497490086453,
+      "Binet_error": -1.81044530490381e-57,
+      "strip_plus_rotational_contact": 0.059774974900842937,
+      "regulator_check_error": -2.1591397216121465e-14
+    },
+    {
+      "n": 2.0,
+      "J": -0.5,
+      "Binet_error": -1.8104307197117527e-56,
+      "strip_plus_rotational_contact": 0.49999999999983036,
+      "regulator_check_error": -1.6964669241238294e-13
+    },
+    {
+      "n": 3.0,
+      "J": -0.9068996821171089,
+      "Binet_error": -3.620853660654408e-56,
+      "strip_plus_rotational_contact": 0.9068996821168074,
+      "regulator_check_error": -3.0159411984423634e-13
+    }
+  ],
+  "derivatives": {
+    "J_prime_1": -0.6168502750680849,
+    "J_double_prime_1": 0.4112335167120566
+  },
+  "status": "all checks passed"
+}
