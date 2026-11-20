@@ -1,6 +1,6 @@
 # Entanglement capacity at holographic interfaces
 
-This repository contains the reproduction code and reference data for Vishnu Jejjala's *Bounds on entanglement fluctuations at holographic interfaces*. The calculations cover Janus with constant scalar potential, a cosine-potential family, the weak-interface CFT kernel, and an independent polar-coordinate check of the quartic Janus coefficient.
+This repository contains the reproduction code and reference data for Vishnu Jejjala and Pallab Basu's *Bounds on entanglement fluctuations at holographic interfaces*. The calculations cover Janus with constant scalar potential, a cosine-potential family, the weak-interface CFT kernel, and an independent polar-coordinate check of the quartic Janus coefficient.
 
 ## Install
 
